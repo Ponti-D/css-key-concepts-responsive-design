@@ -1,0 +1,12 @@
+.card-container{
+    display:flex;
+    border: double;;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    font-size: 1.5rem;  
+}
+.card {
+   
+    align-self: flex-start  ;
+
+}
