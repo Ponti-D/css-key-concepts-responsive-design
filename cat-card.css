@@ -3,8 +3,40 @@
   border: double;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 .card {
   align-self: flex-start;
+}
+
+@media only screen and (min-width: 700px) {
+  .card-container {
+    background-color: #7fffd4;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .card-container {
+    background-color: #ffe4c4;
+  }
+  p {
+    font-size: 1.25em;
+  }
+}
+@media only screen and (max-width: 699px) {
+  #catipsum {
+    display: none;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+  .card-container {
+    color: #eee;
+    background: #121212;
+  }
 }
