@@ -1,6 +1,5 @@
 .card-container {
   display: flex;
-  border: double;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
@@ -40,18 +39,12 @@ nav {
 }
 
 @media only screen and (min-width: 700px) {
-  .card-container {
-    background-color: #7fffd4;
-  }
   p {
     font-size: 1em;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .card-container {
-    background-color: #ffe4c4;
-  }
   p {
     font-size: 1.25em;
   }
